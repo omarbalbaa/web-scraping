@@ -4,11 +4,10 @@ import csv
 from urllib.parse import urlparse
 
 """
-Student: Omar Eid Balbaa - 18102532
-
 Output files:
 1- "found-subdomains.csv" includes subdomains WITHOUT redundancy.
-2- "all-links.txt" includes all links found *unfiltered output*.
+2- "all-links.txt" includes all links found.
+3- "all-domains.txt" includes all subdomains extracted from links in the pages.
 
 Functions:
 1- extract_links() 
